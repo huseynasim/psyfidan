@@ -2205,15 +2205,19 @@ body.cursor-hover .cursor-dot {
   .nav-toggle {
     display: inline-flex;
   }
+  .primary-nav {
+    position: static;
+  }
   .nav-menu {
     position: absolute;
-    top: calc(100% + 1px);
+    top: 100%;
     left: 0;
     right: 0;
     flex-direction: column;
     align-items: stretch;
     background: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
     padding: 16px;
     gap: 0;
     transform: translateY(-8px);
