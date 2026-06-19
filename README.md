@@ -2,7 +2,7 @@
 
 React + Vite single-page app (psychology practice website, Azerbaijani).
 
-## Setupa
+## Setupaa
 
 ```bash
 npm install
