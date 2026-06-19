@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Skill(ui-ux-pro-max:ui-ux-pro-max)",
+      "Bash(python *)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(cp \"C:/Users/Rag/Desktop/New folder/WhatsApp Unknown 2026-06-19 at 2.00.55 PM/WhatsApp Image 2026-06-19 at 1.58.01 PM \\(1\\).jpeg\" \"C:/Users/Rag/Desktop/Psixoloq/public/certs/01-atu-i-yer.jpeg\")",
+      "Bash(cp \"C:/Users/Rag/Desktop/New folder/WhatsApp Unknown 2026-06-19 at 2.00.55 PM/WhatsApp Image 2026-06-19 at 1.58.01 PM \\(5\\).jpeg\" \"C:/Users/Rag/Desktop/Psixoloq/public/certs/02-saglamliq-zirvesi.jpeg\")",
+      "Bash(cp \"C:/Users/Rag/Desktop/New folder/WhatsApp Unknown 2026-06-19 at 2.00.55 PM/WhatsApp Image 2026-06-19 at 1.58.01 PM.jpeg\" \"C:/Users/Rag/Desktop/Psixoloq/public/certs/03-icams-forum.jpeg\")",
+      "Bash(cp \"C:/Users/Rag/Desktop/New folder/WhatsApp Unknown 2026-06-19 at 2.00.55 PM/WhatsApp Image 2026-06-19 at 1.58.01 PM \\(4\\).jpeg\" \"C:/Users/Rag/Desktop/Psixoloq/public/certs/04-apa-membership.jpeg\")",
+      "Bash(cp \"C:/Users/Rag/Desktop/New folder/WhatsApp Unknown 2026-06-19 at 2.00.55 PM/WhatsApp Image 2026-06-19 at 1.58.00 PM \\(2\\).jpeg\" \"C:/Users/Rag/Desktop/Psixoloq/public/certs/05-klinik-psixologiya.jpeg\")",
+      "Bash(grep -n \"services-grid\\\\|service-card\\\\|@media\\\\|/\\\\* ===\" C:/Users/Rag/Desktop/Psixoloq/src/index.css)"
+    ]
+  }
+}
