@@ -18,12 +18,6 @@ const SERVICES = [
       { label: "Format", value: "Üzbəüz" },
       { label: "Tezlik", value: "İstəyə uyğun" },
     ],
-    listHead: "Nəyə kömək edirəm",
-    list: [
-      "Davamlı narahatlıq və panik atak idarəetməsi",
-      "Depressiya simptomları və enerji itkisi",
-      "Travma və post-travmatik stress (PTSP)",
-    ],
   },
   {
     id: "onlayn",

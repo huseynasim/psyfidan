@@ -2,6 +2,9 @@ import { useEffect, useRef, useState, useCallback } from 'react';
 import { ArrowRight } from './Icons.jsx';
 
 const CERTS = [
+  { src: '/certs/09-elte-degree.jpeg', title: 'Bakalavr diplomu — Psixologiya', meta: 'Eötvös Loránd Universiteti · Budapeşt · 30 Yanvar 2025' },
+  { src: '/certs/10-apostille.jpeg', title: 'Apostille — Macarıstan', meta: 'Macarıstan Xarici İşlər və Ticarət Nazirliyi · 26 Fevral 2025' },
+  { src: '/certs/11-azerbaycan-sehadetname.jpeg', title: 'Ali təhsilin tanınması — Şəhadətnamə', meta: 'Azərbaycan Respublikası Elm və Təhsil Nazirliyi · NS00039272' },
   { src: '/certs/01-atu-i-yer.jpeg', title: 'I yer — ATU Tələbə Elmi Konfransı', meta: 'Azərbaycan Tibb Universiteti · Bakı 2026' },
   { src: '/certs/02-saglamliq-zirvesi.jpeg', title: 'Sağlamlıq və Texnologiyanın Zirvəsi', meta: 'ATU & Səhiyyə Nazirliyi · 6–8 May 2026 · 12 DTT kredit' },
   { src: '/certs/03-icams-forum.jpeg', title: 'Elmi Araşdırmalar Forumu — ICAMS', meta: 'Yeni Klinika & Azərbaycan Daxili Xəstəliklər Dərnəyi · 4 Aprel 2026' },
@@ -10,9 +13,6 @@ const CERTS = [
   { src: '/certs/06-boylam-kupon.jpeg', title: 'Klinik Uygulamada Psikoloji Okulu', meta: 'Boylam Psikiyatri Hastanesi & KUPO-N · Ankara · 1–8 Avqust 2025 · 42 saat' },
   { src: '/certs/07-harvard-positive.jpeg', title: 'Positive Psychology', meta: 'Harvard Health Publishing / Harvard Medical School · 15 Avqust 2025' },
   { src: '/certs/08-chipadam-ilk-gorusme.jpeg', title: 'Klinik İlk Görüşmə Texnikaları', meta: 'Chip Adam Eğitim Danışmanlık · 120 saat · 13.02.2025' },
-  { src: '/certs/09-elte-degree.jpeg', title: 'Bakalavr diplomu — Psixologiya', meta: 'Eötvös Loránd Universiteti · Budapeşt · 30 Yanvar 2025' },
-  { src: '/certs/10-apostille.jpeg', title: 'Apostille — Macarıstan', meta: 'Macarıstan Xarici İşlər və Ticarət Nazirliyi · 26 Fevral 2025' },
-  { src: '/certs/11-azerbaycan-sehadetname.jpeg', title: 'Ali təhsilin tanınması — Şəhadətnamə', meta: 'Azərbaycan Respublikası Elm və Təhsil Nazirliyi · NS00039272' },
   { src: '/certs/12-chipadam-kendini-sevme.jpeg', title: 'Kendini Sevme və “Xeyr” deyə bilmə', meta: 'Chip Adam Eğitim Danışmanlık · 4 saat · 22.01.2025' },
 ];
 
