@@ -8,8 +8,8 @@ import { ArrowRight, Check, User, Mail } from "../components/Icons.jsx";
 const PREVIEW_SERVICES = [
   {
     icon: <User />,
-    title: "Fərdi terapiya",
-    desc: "Stress, narahatlıq, depressiya, özünüqiymətləndirmə və travma ilə işləmə.",
+    title: "Canlı seanslar",
+    desc: "Üzbəüz, təhlükəsiz və məxfi mühitdə dərin terapevtik iş.",
     meta: "50 dəq · 80 AZN",
   },
   {
@@ -108,7 +108,7 @@ export default function Home() {
               Haqqımda daha ətraflı <ArrowRight size={16} />
             </Link>
           </div>
-          <PortraitFrame />
+          <PortraitFrame showBadge={false} />
         </div>
       </section>
 
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="container">
           <div className="section-head">
             <span className="eyebrow eyebrow-muted">Xidmətlər</span>
-            <h2 id="svc-prev-title">Fərdi terapiya və onlayn seanslar</h2>
+            <h2 id="svc-prev-title">Canlı və onlayn seanslar</h2>
             <p className="section-sub">
               Seanslar şəxsi ehtiyaclarınıza uyğun planlaşdırılır.
             </p>

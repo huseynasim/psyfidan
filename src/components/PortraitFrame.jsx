@@ -5,6 +5,7 @@ export default function PortraitFrame({
   badgeTitle = 'Sertifikatlı',
   badgeSub = 'APA · EABCT standartları',
   socials = false,
+  showBadge = true,
   instagram = 'psyfidan',
   linkedinLabel = 'Fidan Allahverdiyeva',
 }) {
@@ -20,7 +21,7 @@ export default function PortraitFrame({
           loading="lazy"
           decoding="async"
         />
-        {socials ? (
+        {showBadge && (socials ? (
           <div className="badge-overlay badge-split">
             <a
               className="badge-half"
@@ -63,7 +64,7 @@ export default function PortraitFrame({
               <span>{badgeSub}</span>
             </div>
           </div>
-        )}
+        ))}
       </div>
     </div>
   );

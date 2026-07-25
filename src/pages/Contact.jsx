@@ -80,7 +80,7 @@ export default function Contact() {
           </span>
           <h1>İlk addımı bu gün atın</h1>
           <p className="lead">
-            Klinikam 6 Mərkəzi bulvar küçəsində yerləşir. Onlayn seanslar üçün
+            Görüş yerim 6 Mərkəzi bulvar küçəsində yerləşir. Onlayn seanslar üçün
             dünyanın istənilən nöqtəsindən əlaqə saxlaya bilərsiniz. Mesajınıza
             24 saat ərzində cavab verirəm.
           </p>
@@ -111,7 +111,7 @@ export default function Contact() {
       <section className="section map-section">
         <div className="container">
           <div className="section-head">
-            <span className="eyebrow eyebrow-muted">Klinikanın yeri</span>
+            <span className="eyebrow eyebrow-muted">Görüş yeri</span>
             <h2>{ADDRESS_SHORT}</h2>
             <p className="section-sub">
               Xəritədə Google Maps Plus Code: <strong>9VJR+WJ</strong> (Баку,
@@ -123,7 +123,7 @@ export default function Contact() {
             <div className="map-frame">
               <iframe
                 src={MAP_EMBED_SRC}
-                title={`${SITE_NAME} — klinikanın yerləşdiyi yer Google Maps-də`}
+                title={`${SITE_NAME} — görüş yerinin yerləşdiyi yer Google Maps-də`}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen

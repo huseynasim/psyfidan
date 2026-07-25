@@ -25,7 +25,7 @@ export default function Footer() {
               <small>Psixoloq · Bakı</small>
             </span>
           </span>
-          <p className="muted">Sakit, etibarlı və elmi əsaslı psixoloji dəstək.</p>
+          <p className="muted">Güvənli və elmi əsaslı psixoloji dəstək.</p>
         </div>
 
         <nav className="footer-nav" aria-label="Alt naviqasiya">

@@ -135,7 +135,7 @@ export default function About() {
             </span>
             <h2>Peşəkar akkreditasiya</h2>
             <p className="section-sub">
-              Beynəlxalq standartlara uyğun fasiləsiz peşəkar inkişaf.
+              Beynəlxalq standartlara uyğun davamlı peşəkar inkişaf.
             </p>
           </div>
           <CertCarousel />

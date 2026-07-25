@@ -6,14 +6,17 @@ const SERVICES = [
   {
     id: "ferdi",
     icon: <User />,
-    title: "Fərdi terapiya",
+    title: "Canlı seanslar",
     tagline: "Özünüz, hissləriniz və həyatınızla təkbətək iş.",
-    body: "Stress, narahatlıq, depressiya, özünüqiymətləndirmə, kədər, peşmançılıq, qərarsızlıq və travma kimi mövzularda dərin, struktur olunmuş iş. Hər seans bir əvvəlkinin üzərində qurulur.",
+    body: [
+      "Üzbəüz seanslar təhlükəsiz, məxfi və rahat bir mühitdə həyata keçirilir. Bu format terapevtik əlaqənin daha dərin qurulmasına, emosiyaların daha yaxından işlənməsinə və terapiya prosesinin fərdi ehtiyaclarınıza uyğun şəkildə davam etməsinə imkan yaradır.",
+      "Hər görüş əvvəlki seansların üzərində qurulur və müəyyən olunmuş terapiya məqsədlərinə doğru sistemli şəkildə irəliləyir.",
+    ],
     meta: [
       { label: "Müddət", value: "50 dəqiqə" },
       { label: "Qiymət", value: "80 AZN" },
-      { label: "Format", value: "Üzbəüz / onlayn" },
-      { label: "Tezlik", value: "Həftədə 1 dəfə" },
+      { label: "Format", value: "Üzbəüz" },
+      { label: "Tezlik", value: "İstəyə uyğun" },
     ],
     listHead: "Nəyə kömək edirəm",
     list: [
@@ -27,16 +30,19 @@ const SERVICES = [
     icon: <Mail />,
     title: "Onlayn seanslar",
     tagline: "Dünyanın istənilən nöqtəsindən, ana dilinizdə.",
-    body: "Tədqiqatlar göstərir ki, video seanslar bir çox hallarda üzbəüz seans qədər effektivdir. Zoom və ya Google Meet istifadə edirəm — şifrəli, qeydiyyatsız və yalnız bizim üçün.",
+    body: [
+      "Harada olmağınızdan asılı olmayaraq, ana dilinizdə peşəkar psixoterapiya dəstəyi əldə edə bilərsiniz.",
+      "Onlayn seanslar təhlükəsiz, məxfi və rahat bir format təqdim edir. Elmi araşdırmalar göstərir ki, uyğun hallarda onlayn terapiya üzbəüz terapiya qədər effektiv nəticələr verə bilir. Seanslar Zoom və ya Google Meet platformaları vasitəsilə, məxfiliyə və etik standartlara tam riayət olunaraq keçirilir.",
+    ],
     meta: [
       { label: "Müddət", value: "50 dəqiqə" },
-      { label: "Qiymət", value: "80 AZN" },
+      { label: "Qiymət", value: "60 AZN" },
       { label: "Platforma", value: "Zoom / Google Meet" },
-      { label: "Ödəniş", value: "Kart / Stripe / Wise" },
+      { label: "Tezlik", value: "İstəyə uyğun" },
     ],
     listHead: "Kimə uyğundur",
     list: [
-      "Bakıdan kənarda yaşayanlar (regionlar, xaricdə diasporu)",
+      "Regionlarda və ya xaricdə (diasporada) yaşayan azərbaycanlılar",
       "Çox yüklü iş qrafiki olanlar",
       "Fiziki olaraq evdən çıxa bilməyənlər",
       "Anonimliyə daha çox dəyər verənlər",
@@ -89,7 +95,9 @@ export default function Services() {
                   </div>
                 </div>
 
-                <p>{s.body}</p>
+                {s.body.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
 
                 <div className="svc-meta-grid">
                   {s.meta.map((m) => (
